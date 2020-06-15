@@ -17,9 +17,10 @@
 # Setup
 > include terms/tags that can be searched
 
----
 
-# Example (Optional)
+
+# HandyCommandLine setup
+
 ```powershell
 $port = New-Object System.IO.Ports.SerialPort
 $port.PortName = "COM7" #RENAME TO YOUR CURRENT PORT.
@@ -41,7 +42,7 @@ Start-Sleep -Milliseconds 500
 $port.close() 
 ```
 
----
+# HandyCommandLine example
 
 ```shell
 $ brew update
