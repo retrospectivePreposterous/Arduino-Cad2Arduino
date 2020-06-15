@@ -10,4 +10,4 @@
 - issues (waffle.io maybe)
 - devDependencies
 
-![alt text](https://raw.githubusercontent.com/retrospectivePreposterous/Arduino-Cad2Arduino/master/Autocad2Arduino-WiringDiagram.png?token=AOV45TIUTILFGD4WT7V64GC647J2O)
+![wiringdiagram](https://raw.githubusercontent.com/retrospectivePreposterous/Arduino-Cad2Arduino/master/Autocad2Arduino-WiringDiagram.png?token=AOV45TIUTILFGD4WT7V64GC647J2O)
