@@ -52,16 +52,18 @@ $ brew install fvcproductions
 # Test samples
 
 **Led Matrix:**
-- The Matrix shows the Cad Object Entity as a common symbol.
+- The Led Matrix shows the Cad Object Entity as a common symbol.
 - `EntityToMatrix_ETM.lsp` was used in this case.
 
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/TestGIF/LedMatrix.gif?raw=true)
 
-> Oled Display:
-
+**Oled Display:**
+- Property data of selected object is shown in the Oled Display.
+- `PropertyToOled_PTO.lsp` was used in this case.
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/TestGIF/Oled.gif?raw=true)
 
-> Servo:
-
+**Servo:**
+- Block orientation property is assimilated by the servo.
+- `BlockAngleToServo_ATS.lsp` was used in this case.
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/TestGIF/Servo.gif?raw=true)
 
