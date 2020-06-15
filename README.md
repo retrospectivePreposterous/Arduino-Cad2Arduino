@@ -12,7 +12,7 @@
 # Wiring Diagram
 > include terms/tags that can be searched
 
-![alt text](https://raw.githubusercontent.com/retrospectivePreposterous/Arduino-Cad2Arduino/master/Autocad2Arduino-WiringDiagram.png?token=AOV45TLNEI6UQKWMJYSOGIC647LT4)
+![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/Autocad2Arduino-WiringDiagram.png?raw=true)
 
 # Setup
 > include terms/tags that can be searched
