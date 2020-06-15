@@ -52,12 +52,15 @@ $ brew install fvcproductions
 # Test samples
 > include terms/tags that can be searched
 
-Led Matrix:
+- Led Matrix:
+
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/TestGIF/LedMatrix.gif?raw=true)
 
-Oled Display:
+- Oled Display:
+
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/TestGIF/Oled.gif?raw=true)
 
-Servo:
+- Servo:
+
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/TestGIF/Servo.gif?raw=true)
 
