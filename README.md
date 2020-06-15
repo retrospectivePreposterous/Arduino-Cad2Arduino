@@ -60,10 +60,12 @@ $ brew install fvcproductions
 **Oled Display:**
 - Property data of selected object is shown in the Oled Display.
 - `PropertyToOled_PTO.lsp` was used in this case.
+
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/TestGIF/Oled.gif?raw=true)
 
 **Servo:**
 - Block orientation property is assimilated by the servo.
 - `BlockAngleToServo_ATS.lsp` was used in this case.
+
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/TestGIF/Servo.gif?raw=true)
 
