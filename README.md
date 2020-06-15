@@ -50,10 +50,10 @@ $ brew install fvcproductions
 ```
 
 # Test samples
-> include terms/tags that can be searched
 
 - Led Matrix:
 The Matrix shows the Cad Object Entity as a common symbol.
+EntityToMatrix_ETM.lsp was used in this case.
 
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/TestGIF/LedMatrix.gif?raw=true)
 
