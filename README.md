@@ -1,5 +1,5 @@
-# Autocad2Arduino
-> Core to allow Autocad interact with Arduino
+# Cad2Arduino
+> Core to allow Cad software to interact with Arduino.
 # Install
 
 > include terms/tags that can be searched
