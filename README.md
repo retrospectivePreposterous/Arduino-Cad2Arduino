@@ -1,3 +1,5 @@
+![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/Graphic/Cad2Arduino-Logo.png?raw=true)
+
 # Cad2Arduino
 > Arduino core to allow Cad software to interact with hardware devices and IoT systems.
 
@@ -37,7 +39,7 @@ Cad2Arduino is an extensible core designed to allow more than the suggested hard
 # Wiring Diagram
 > include terms/tags that can be searched
 
-![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/Autocad2Arduino-WiringDiagram.png?raw=true)
+![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/Graphic/Autocad2Arduino-WiringDiagram.png?raw=true)
 
 # Setup
 > include terms/tags that can be searched
