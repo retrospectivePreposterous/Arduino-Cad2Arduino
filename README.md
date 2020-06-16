@@ -13,9 +13,16 @@
   - Archicad.
 
 **Hardware**
-- build status
-- issues (waffle.io maybe)
-- devDependencies
+Cad2Arduino is an extensible core designed to allow more than the suggested hardware. However, the default version is assemblied with the following hardware:
+- Arduino Mega 2560. Arduino Nano or Uno are suitable.
+- 0.96 Inch Oled display.
+- 8x8 Led Matrix Module MAX7219.
+- SG90 Microservo.
+- 3V-12V Passive buzzer.
+- 5mm LED.
+- 220Ω resistor.
+- Wire jumpers.
+- Mini breadboard.
 
 # Installation
 > include terms/tags that can be searched
