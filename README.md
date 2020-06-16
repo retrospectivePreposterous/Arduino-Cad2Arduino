@@ -1,11 +1,13 @@
 # Cad2Arduino
-> Arduino core to allow Cad software to interact with hardware devices.
+> Arduino core to allow Cad software to interact with hardware devices and IoT systems.
 
 # Requirements
 **Software**
-- build status
-- issues (waffle.io maybe)
-- devDependencies
+- Arduino IDE. Download for free at https://www.arduino.cc/
+- Windows OS (Tested on Windows 8 and higher versions).
+- Powershell ISE.
+- Cad software compatible with AutoLISP scripting.
+
 **Hardware**
 - build status
 - issues (waffle.io maybe)
