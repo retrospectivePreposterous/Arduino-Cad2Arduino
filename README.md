@@ -3,6 +3,7 @@
 
 # Requirements
 **Software**
+
 - Arduino IDE. Download for free at https://www.arduino.cc/
 - Windows OS (Tested on Windows 8 and higher versions).
 - Powershell ISE.
@@ -13,6 +14,7 @@
   - Archicad.
 
 **Hardware**
+
 Cad2Arduino is an extensible core designed to allow more than the suggested hardware. However, the default version is assemblied with the following hardware:
 - Arduino Mega 2560. Arduino Nano or Uno are suitable.
 - 0.96 Inch Oled display.
