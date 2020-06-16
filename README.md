@@ -6,10 +6,8 @@
 - Arduino IDE. Download for free at https://www.arduino.cc/
 - Windows OS (Tested on Windows 8 and higher versions).
 - Powershell ISE.
-- Cad software compatible with AutoLISP scripting (Tested on Autocad). 
-
-The following platforms are proved to be suitable with Autolisp:
-  - Autocad or any of its verticals.
+- Cad software compatible with AutoLISP scripting. 
+  - Autocad or any of its verticals (Tested on Autocad 2019 and Civil 3D 2019).
   - BricsCad.
   - BabaCad.
   - Archicad.
