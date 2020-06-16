@@ -1,4 +1,4 @@
-![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/Graphic/Cad2Arduino-Logo.png?raw=true)
+![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/Graphic/Cad2Arduino-logo.png?raw=true)
 
 # Cad2Arduino
 > Arduino core to allow Cad software to interact with hardware devices and IoT systems.
