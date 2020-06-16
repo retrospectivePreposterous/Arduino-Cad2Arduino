@@ -1,6 +1,9 @@
 # Cad2Arduino
 > Core to allow Cad software to interact with Arduino.
 
+# Requirements
+> include terms/tags that can be searched
+
 # Installation
 > include terms/tags that can be searched
 
