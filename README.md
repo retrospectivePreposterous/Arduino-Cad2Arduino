@@ -1,8 +1,15 @@
 # Cad2Arduino
-> Core to allow Cad software to interact with Arduino.
+> Arduino core to allow Cad software to interact with hardware devices.
 
 # Requirements
-> include terms/tags that can be searched
+**Software**
+- build status
+- issues (waffle.io maybe)
+- devDependencies
+**Hardware**
+- build status
+- issues (waffle.io maybe)
+- devDependencies
 
 # Installation
 > include terms/tags that can be searched
