@@ -3,6 +3,17 @@
 # Cad2Arduino
 > Arduino core to allow Cad software to interact with hardware devices and IoT systems.
 
+## Table of Contents
+
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Wiring](#wiring)
+- [Team](#team)
+- [FAQ](#faq)
+- [Support](#support)
+- [License](#license)
+
+
 # Requirements
 **Software**
 
