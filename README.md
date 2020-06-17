@@ -53,7 +53,21 @@ Cad2Arduino is an extensible core designed to allow more than the suggested hard
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/Graphic/Autocad2Arduino-WiringDiagram.png?raw=true)
 
 # Commands
-> include terms/tags that can be searched
+The Cad2Arduino library contains the following commands:
+* text
+* point
+* circle
+* fcircle
+* line
+* rectangle
+* frectangle
+* invert
+* clear
+* matrix
+* servo
+* sound
+* 12on
+* 12off
 
 
 
