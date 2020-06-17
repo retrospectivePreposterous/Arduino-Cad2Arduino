@@ -2,7 +2,8 @@
 
 # Cad2Arduino
 > Arduino core to allow Cad software to interact with hardware devices and IoT systems.
-Have you imagined of drawing something and making your device to move in the same way? Or letting people know which parts have to subtitute on site by just clicking on your drawings? These and many other possibilities are now possible thanks to Cad2Arduino, which enables interaction between Cad drawings and IoT devices. 
+
+Have you ever imagined of drawing something and making your device to move in the same way? Or letting people know which parts have to subtitute on site by just clicking on your drawings? These and many other possibilities are now possible thanks to Cad2Arduino, which enables interaction between Cad drawings graphically and IoT devices. 
 
 ## Table of Contents
 
