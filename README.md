@@ -40,16 +40,12 @@ Cad2Arduino is an extensible core designed to allow more than the suggested hard
 - Mini breadboard.
 
 # Installation
-1. Do the wiring of your Arduino device.
-2. Run Cad2Arduino in Arduino IDE and transfer it into your board.
+1. Do the wiring of your Arduino device. 
+> If not having the same board you can test Cad2Arduino in different ones by respecting the I/O pins.
+> No need to have all components to run Cad2Arduino. The library can be extended.
+2. Run Cad2Arduino in Arduino IDE and upload it into your board.
 3. From now on you will be able to test it into Arduino Serial Monitor or Powershell `HandyCommandLine-ed01.ps1`.
-4. 
-
-
-**Badges will go here**
-- build status
-- issues (waffle.io maybe)
-- devDependencies
+4. Run your Cad software and upload the AutoLISP tools. 
 
 # Wiring Diagram
 > include terms/tags that can be searched
