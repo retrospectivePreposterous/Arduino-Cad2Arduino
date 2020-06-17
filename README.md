@@ -42,7 +42,8 @@ Cad2Arduino is an extensible core designed to allow more than the suggested hard
 # Installation
 1. Do the wiring of your Arduino device.
 2. Run Cad2Arduino in Arduino IDE and transfer it into your board.
-3. From now on you will be able to test it into Arduino Serial Monitor or Powershell HandyCommandLine.
+3. From now on you will be able to test it into Arduino Serial Monitor or Powershell `HandyCommandLine-ed01.ps1`.
+4. 
 
 
 **Badges will go here**
