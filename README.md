@@ -46,7 +46,7 @@ Cad2Arduino is an extensible core designed to allow more than the suggested hard
 2. Start Arduino IDE and install the following libraries:
   - Adafruit GFX.
   - Adafruit SSD1306.
-  - Pitches.
+  - Pitches. By Brett Hagman.
   - Servo. By Michael Margolis.
   - Ledcontrol. By Eberhard Fahle.
 3. Run Cad2Arduino in Arduino IDE and upload it into your board.
