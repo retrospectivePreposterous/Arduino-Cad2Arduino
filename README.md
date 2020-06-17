@@ -39,20 +39,20 @@ Cad2Arduino is an extensible core designed to allow more than the suggested hard
 - Wire jumpers.
 - Mini breadboard.
 
-# Installation
+# Setup
 1. Do the wiring of your Arduino device. 
-> If not having the same board you can test Cad2Arduino in different ones by respecting the I/O pins.
+> If not having the Arduino Mega 2506 you can test Cad2Arduino in different boards by respecting the I/O pins.
 > No need to have all components to run Cad2Arduino. The library can be extended.
 2. Run Cad2Arduino in Arduino IDE and upload it into your board.
 3. From now on you will be able to test it into Arduino Serial Monitor or Powershell `HandyCommandLine-ed01.ps1`.
 4. Run your Cad software and upload the AutoLISP tools. 
+5. Call AutoLISP functions by your Cad command line.
 
 # Wiring Diagram
-> include terms/tags that can be searched
 
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/Graphic/Autocad2Arduino-WiringDiagram.png?raw=true)
 
-# Setup
+# Commands
 > include terms/tags that can be searched
 
 
