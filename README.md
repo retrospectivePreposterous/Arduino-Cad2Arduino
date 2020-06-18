@@ -71,7 +71,7 @@ The Cad2Arduino library contains the following commands:
 * **circle** - Specify circle (x1,y1,rad) at the OLED display. Separate values by comma. Enter empty value to exit.
 * **fcircle** - Specify fill circle (x1,y1,rad) at the OLED display. Separate values by comma. Enter empty value to exit.
 * **rectangle** - Specify rectangle (x1,y1,dx,dy) at the OLED display. Separate values by comma. Enter empty value to exit.
-* **frectangle** - Specify fill rectangle (x1,y1,distx,disty) at the OLED display. Separate values by comma. Enter empty value to exit.
+* **frectangle** - Specify fill rectangle (x1,y1,dx,dy) at the OLED display. Separate values by comma. Enter empty value to exit.
 * **invert** - Create negative graphics at OLED display. Invert again to return to previous visual state.
 * **clear** - Erase all graphics at OLED display.
 * **matrix** - Specify command (line/pline/circle/ellipse/point/block/text/solid/surface/mesh/all/none)*
