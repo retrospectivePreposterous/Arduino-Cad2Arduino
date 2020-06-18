@@ -52,9 +52,10 @@ Cad2Arduino is an extensible core designed to allow more than the suggested hard
   - Servo. By Michael Margolis.
   - Ledcontrol. By Eberhard Fahle.
 3. Run Cad2Arduino in Arduino IDE and upload it into your board.
-4. From now on you will be able to test it into Arduino Serial Monitor or Powershell `HandyCommandLine-ed01.ps1`.
-5. Run your Cad software and upload the AutoLISP tools. 
+4. From now on you will be able to test it into Arduino Serial Monitor or Powershell `HandyCommandLine-ed01.ps1`*.
+5. Run your Cad software and upload the AutoLISP* tools. 
 6. Call AutoLISP functions by your Cad command line.
+> *To succesfully run AutoLISP and HandyCommandLine you shall modify the Port Name in the code.
 
 # Wiring Diagram
 
