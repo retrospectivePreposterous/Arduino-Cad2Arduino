@@ -105,19 +105,16 @@ $port.BaudRate = "9600"
 
 `PS-HandyCommandLine-ed01.ps1` might look like this (note this script was not designed with reading-line properties as Arduino's Serial Monitor to enhance communication speed):
 
+![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/TestGIF/PS-HandyCommandLine.gif?raw=true)
 
-# HandyCommandLine example
-
-```shell
-$ brew update
-$ brew install fvcproductions
-```
 
 # How it works
 
+Before making our first Cad tests we shall understand how the core works:
+
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/Graphic/Cad2Arduino-HowItWorks.png?raw=true)
 
-# Test samples
+# Testing in CAD - AutoLISP samples
 
 **Led Matrix:**
 - The Led Matrix shows the Cad Object Entity as a common symbol.
