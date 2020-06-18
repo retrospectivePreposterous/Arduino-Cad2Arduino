@@ -10,7 +10,7 @@ Have you ever imagined of drawing something and making your device to move in th
 - [Requirements](#requirements)
 - [Setup](#setup)
 - [Wiring Diagram](#wiring)
-- [Arduino IDE & Serial Monitor](#Arduino IDE & Serial Monitor)
+- [Arduino IDE & Serial Monitor](#ArduinoIDE&SerialMonitor)
 - [Commands](#commands)
 - [Powershell HandyCommandLine setup](#powershell)
 - [How it works](#how)
