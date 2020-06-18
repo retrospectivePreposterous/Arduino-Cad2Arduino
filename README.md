@@ -59,7 +59,7 @@ Cad2Arduino is an extensible core designed to allow more than the suggested hard
 
 # Wiring Diagram
 
-![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/Graphic/Autocad2Arduino-WiringDiagram.png?raw=true)
+![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/Graphic/Cad2Arduino-WiringDiagram.png?raw=true)
 
 # Commands
 The Cad2Arduino library contains the following commands:
@@ -109,6 +109,10 @@ $port.close()
 $ brew update
 $ brew install fvcproductions
 ```
+
+# How it works
+
+![alt text]https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/Graphic/Cad2Arduino-HowItWorks.png?raw=true)
 
 # Test samples
 
