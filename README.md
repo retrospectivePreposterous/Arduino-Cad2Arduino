@@ -64,12 +64,11 @@ Cad2Arduino is an extensible core designed to allow more devices than the sugges
 
 # Commands
 The Cad2Arduino library contains the following commands:
-* **text** Specify strings on newlines at the OLED display. Enter empty string to exit.
-* point
-Specify point coordinates at the OLED display. Separate values by comma. Enter empty value to exit.
-* circle
-* fcircle
-* line
+* **text** - Specify strings on newlines at the OLED display. Enter empty string to exit.
+* **point** - Specify point coordinates at the OLED display. Separate values by comma. Enter empty value to exit.
+* **line** - Specify line (x1,y1,x2,y2) at the OLED display. Separate values by comma. Enter empty value to exit.
+* **circle** - Specify circle (x1,y1,rad) at the OLED display. Separate values by comma. Enter empty value to exit.
+* **fcircle** - Specify fill circle (x1,y1,rad) at the OLED display. Separate values by comma. Enter empty value to exit.
 * rectangle
 * frectangle
 * invert
