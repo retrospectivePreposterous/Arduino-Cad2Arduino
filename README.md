@@ -114,13 +114,17 @@ Before making our first Cad tests we shall understand how the core works:
 
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/Graphic/Cad2Arduino-HowItWorks.png?raw=true)
 
-The setup of the core goes in the opposite direction of its use, but once the setup is ready we only have to worry about the Lisp branch.
+The setup of the core goes in the opposite direction of its use, but once the setup is ready we only have to worry about the LISP branch.
 With some AutoLISP knowledge we can program our own routines for our Cad2Arduino. AutoLISP will be able to recognise many drawing or object properties like rotation, length or name thanks to ActiveX VLA and VLAX enablers. Then AutoLISP calls Powershell through external shell and it sends the information to the board.
 
-*Putting it simple: AutoLISP is the reader, PowerShell the messager, Arduino the performer.*
+> *Putting it simple: **AutoLISP** is the reader, **PowerShell** the messager, **Arduino** the performer.*
 
 
 # Testing in CAD - AutoLISP samples
+
+Before testing the AutoLISP samples in our Cad Software, please make sure the PortName and BaudRate in the LISP are set up according your current ones:
+
+![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/Graphic/AutoLISP-setup.png?raw=true)
 
 **Led Matrix:**
 - The Led Matrix shows the Cad Object Entity as a common symbol.
