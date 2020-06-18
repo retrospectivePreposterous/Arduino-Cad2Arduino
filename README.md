@@ -112,7 +112,7 @@ $ brew install fvcproductions
 
 # How it works
 
-![alt text]https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/Graphic/Cad2Arduino-HowItWorks.png?raw=true)
+![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/Graphic/Cad2Arduino-HowItWorks.png?raw=true)
 
 # Test samples
 
