@@ -64,7 +64,7 @@ Cad2Arduino is an extensible core designed to allow more devices than the sugges
 
 # Arduino IDE & Serial Monitor
 
-Once the wiring is done and the program uploaded to the board, the Serial Monitor can be started to test the core and try some commands with the board.
+Once the wiring is done and the program uploaded to the board, the Serial Monitor can be started to test the core and try some commands with the board. Do not forget to set it up at 9600 Baud Rate.
 
 If the connection is succesful the Serial Monitor shall prompt the HandyCommandLine, which might look like this:
 
@@ -91,12 +91,11 @@ The Cad2Arduino library contains the following commands:
 
 *Besides these Cad graphics, other Matrix display were added: (skull/alien/tv/heart/wrong/right/creep/house/smile/neutral/sad).
 
+# Powershell HandyCommandLine setup
 
+This small piece of script was designed to test the connection without Arduino IDE. Powershell can be instructed through CMD and Batch script making it suitable to be run "behind the curtain". Also, Powershell has serial port communication libraries and it is a Windows native program (which is perfect to run Cad2Arduino in computers with no need of installing Arduino IDE).
 
-# HandyCommandLine setup
-
-Before running it, make sure to modify the second line PortName ("COM7" by default) to the one assigned to your board.
-Also, note the BaudRate should be "9600" as per the Arduino Serial Monitor.
+Before testing it 
 
 ```powershell
 $port = New-Object System.IO.Ports.SerialPort
