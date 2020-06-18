@@ -22,7 +22,7 @@ Have you ever imagined of drawing something and making your device to move in th
 - Arduino IDE. Download for free at https://www.arduino.cc/
 - Windows OS (Tested on Windows 8 and higher versions).
 - Powershell ISE.
-- Cad software compatible with AutoLISP scripting. 
+- Cad software compatible with AutoLISP scripting. To choose in the market:
   - Autocad or any of its verticals (Tested on Autocad 2019 and Civil 3D 2019).
   - BricsCad.
   - BabaCad.
@@ -30,7 +30,7 @@ Have you ever imagined of drawing something and making your device to move in th
 
 **Hardware**
 
-Cad2Arduino is an extensible core designed to allow more than the suggested hardware. However, the default version is assemblied with the following hardware:
+Cad2Arduino is an extensible core designed to allow more devices than the suggested here. However, the default version is assemblied with the following hardware:
 - Arduino Mega 2560. Arduino Nano or Uno are suitable.
 - 0.96 Inch Oled display.
 - 8x8 Led Matrix Module MAX7219.
@@ -42,6 +42,7 @@ Cad2Arduino is an extensible core designed to allow more than the suggested hard
 - Mini breadboard.
 
 # Setup
+
 1. Do the wiring of your Arduino device. 
 > If not having the Arduino Mega 2506 you can test Cad2Arduino in different boards by respecting the I/O pins.
 > No need to have all components to run Cad2Arduino. The library can be extended.
@@ -64,7 +65,9 @@ Cad2Arduino is an extensible core designed to allow more than the suggested hard
 # Commands
 The Cad2Arduino library contains the following commands:
 * text
+Specify strings on newlines at the OLED display. Enter empty string to exit.
 * point
+Specify point coordinates at the OLED display. Separate values by comma. Enter empty value to exit.
 * circle
 * fcircle
 * line
@@ -82,25 +85,12 @@ The Cad2Arduino library contains the following commands:
 
 # HandyCommandLine setup
 
+Before running it, make sure to modify the second line PortName ("COM7" by default) to the one assigned to your board:
+
 ```powershell
 $port = New-Object System.IO.Ports.SerialPort
 $port.PortName = "COM7" #RENAME TO YOUR CURRENT PORT.
 $port.BaudRate = "9600"
-$port.open() 
-
-Start-Sleep -Milliseconds 500
-Write-Host " [HandyCommandLine 1.0 -- by retrospectivePreposterous]"
-Write-Host " Enter EXIT to close. Readlines are disabled in this feature"
-Write-Host "----------------------------------------------------------------"
-do {
-$codeline = Read-Host 
-if ($codeline -ne "exit") {
-$port.Write("$codeline`r") 
-Start-Sleep -Milliseconds 500
-}
-} until ( $codeline -eq "exit" ) 
-
-$port.close() 
 ```
 
 # HandyCommandLine example
