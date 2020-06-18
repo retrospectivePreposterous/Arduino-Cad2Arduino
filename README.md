@@ -126,26 +126,28 @@ Before testing the AutoLISP samples in our Cad Software, please make sure the Po
 
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/Graphic/AutoLISP-setup.png?raw=true)
 
-**Led Matrix:**
+**`EntityToMatrix_ETM.lsp`**
 - The Led Matrix shows the Cad Object Entity as a common symbol.
-- `EntityToMatrix_ETM.lsp` was used in this case.
+- Once loaded in Cad run "ETM" command.
 
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/TestGIF/LedMatrix.gif?raw=true)
 
-**Oled Display:**
+**`PropertyToOled_PTO.lsp`**
 - Property data of selected object is shown in the Oled Display.
-- `PropertyToOled_PTO.lsp` was used in this case.
+- Once loaded in Cad run "PTO" command.
 
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/TestGIF/Oled.gif?raw=true)
 
-**Servo:**
+**`BlockAngleToServo_ATS.lsp`:**
 - Block orientation property is assimilated by the servo.
-- `BlockAngleToServo_ATS.lsp` was used in this case.
+- Once loaded in Cad run "ATS" command.
 
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/TestGIF/Servo.gif?raw=true)
 
 # Potential uses
 
-- AAA
-- eeeee
-- iiii
+- For BIM purposes, like maintenance or control of IoT systems physically located on site in 6D projects.
+- For graphical paths or route instructions to robotic cars, by just entering a polyline drawing.
+- For graphical movement instructions to robotic arms, by selecting block assemblies.
+- For realtime communication with project team members.
+- For any graphic to light, sound or movement translation, at any place not necessary next to our computer.
