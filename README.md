@@ -53,7 +53,7 @@ Cad2Arduino is an extensible core designed to allow more devices than the sugges
   - Servo. By Michael Margolis.
   - Ledcontrol. By Eberhard Fahle.
 3. Run Cad2Arduino in Arduino IDE and upload it into your board.
-4. From now on you will be able to test it into Arduino Serial Monitor or Powershell `HandyCommandLine-ed01.ps1`*.
+4. From now on you will be able to test it into Arduino Serial Monitor or Powershell `PS-HandyCommandLine-ed01.ps1`*.
 5. Run your Cad software and upload the AutoLISP* tools. 
 6. Call AutoLISP functions by your Cad command line.
 > *To succesfully run AutoLISP and HandyCommandLine you shall modify the Port Name in the code.
@@ -66,7 +66,7 @@ Cad2Arduino is an extensible core designed to allow more devices than the sugges
 
 Once the wiring is done and the program uploaded to the board, the Serial Monitor can be started to test the core and try some commands with the board. Do not forget to set it up at 9600 Baud Rate.
 
-If the connection is succesful the Serial Monitor shall prompt the HandyCommandLine, which might look like this:
+If the connection is succesful the Serial Monitor shall prompt the HandyCommandLine, a short of REPL, which might look like this:
 
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/TestGIF/HandyCommandLine.gif?raw=true)
 
@@ -95,13 +95,16 @@ The Cad2Arduino library contains the following commands:
 
 This small piece of script was designed to test the connection without Arduino IDE. Powershell can be instructed through CMD and Batch script making it suitable to be run "behind the curtain". Also, Powershell has serial port communication libraries and it is a Windows native program (which is perfect to run Cad2Arduino in computers with no need of installing Arduino IDE).
 
-Before testing it 
+Before testing `PS-HandyCommandLine-ed01.ps1` open the file in Powershell ISE (right click - edit) and modify the second line PortName (subtitute "COM7" with your current port name). Also make sure the BaudRate is set to "9600".
 
 ```powershell
 $port = New-Object System.IO.Ports.SerialPort
 $port.PortName = "COM7" #RENAME TO YOUR CURRENT PORT.
 $port.BaudRate = "9600"
 ```
+
+`PS-HandyCommandLine-ed01.ps1` might look like this (note this script was not designed with reading-line properties as Arduino's Serial Monitor to enhance communication speed):
+
 
 # HandyCommandLine example
 
