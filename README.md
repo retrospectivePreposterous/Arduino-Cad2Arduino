@@ -5,7 +5,7 @@
 
 Have you ever imagined of drawing something and making your device to move in the same way? Or letting people know which parts have to subtitute on site by just clicking on your drawings? These and many other possibilities are now possible thanks to Cad2Arduino, which enables interaction between Cad drawings graphically and IoT devices. 
 
-## Table of Contents
+# Table of Contents
 
 - [Requirements](#requirements)
 - [Installation](#installation)
@@ -113,6 +113,12 @@ $port.BaudRate = "9600"
 Before making our first Cad tests we shall understand how the core works:
 
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/Graphic/Cad2Arduino-HowItWorks.png?raw=true)
+
+The setup of the core goes in the opposite direction of its use, but once the setup is ready we only have to worry about the Lisp branch.
+With some AutoLISP knowledge we can program our own routines for our Cad2Arduino. AutoLISP will be able to recognise many drawing or object properties like rotation, length or name thanks to ActiveX VLA and VLAX enablers. Then AutoLISP calls Powershell through external shell and it sends the information to the board.
+
+*Putting it simple: AutoLISP is the reader, PowerShell the messager, Arduino the performer.*
+
 
 # Testing in CAD - AutoLISP samples
 
