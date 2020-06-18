@@ -70,7 +70,7 @@ The Cad2Arduino library contains the following commands:
 * **line** - Specify line (x1,y1,x2,y2) at the OLED display. Separate values by comma. Enter empty value to exit.
 * **circle** - Specify circle (x1,y1,rad) at the OLED display. Separate values by comma. Enter empty value to exit.
 * **fcircle** - Specify fill circle (x1,y1,rad) at the OLED display. Separate values by comma. Enter empty value to exit.
-* **rectangle** - Specify rectangle (x1,y1,distx,disty) at the OLED display. Separate values by comma. Enter empty value to exit.
+* **rectangle** - Specify rectangle (x1,y1,dx,dy) at the OLED display. Separate values by comma. Enter empty value to exit.
 * **frectangle** - Specify fill rectangle (x1,y1,distx,disty) at the OLED display. Separate values by comma. Enter empty value to exit.
 * **invert** - Create negative graphics at OLED display. Invert again to return to previous visual state.
 * **clear** - Erase all graphics at OLED display.
@@ -79,6 +79,7 @@ The Cad2Arduino library contains the following commands:
 * **sound** - Make Buzzer beep.
 * **12on** - Turn on Pin 12.
 * **12off** - Turn off Pin 12.
+
 *Besides these Cad graphics, other Matrix display were added: (skull/alien/tv/heart/wrong/right/creep/house/smile/neutral/sad).
 
 
