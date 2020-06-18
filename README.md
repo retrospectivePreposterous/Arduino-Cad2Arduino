@@ -62,7 +62,13 @@ Cad2Arduino is an extensible core designed to allow more devices than the sugges
 
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/Graphic/Cad2Arduino-WiringDiagram.png?raw=true)
 
+# Arduino IDE & Serial Monitor
+
+Once the wiring is done and the program uploaded to the board, the Serial Monitor can be started to test the core and try some commands with the board.
+
+
 # Commands
+
 The Cad2Arduino library contains the following commands:
 
 * **text** - Specify strings on newlines at the OLED display. Enter empty string to exit.
@@ -86,7 +92,8 @@ The Cad2Arduino library contains the following commands:
 
 # HandyCommandLine setup
 
-Before running it, make sure to modify the second line PortName ("COM7" by default) to the one assigned to your board:
+Before running it, make sure to modify the second line PortName ("COM7" by default) to the one assigned to your board.
+Also, note the BaudRate should be "9600" as per the Arduino Serial Monitor.
 
 ```powershell
 $port = New-Object System.IO.Ports.SerialPort
