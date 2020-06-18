@@ -66,6 +66,9 @@ Cad2Arduino is an extensible core designed to allow more devices than the sugges
 
 Once the wiring is done and the program uploaded to the board, the Serial Monitor can be started to test the core and try some commands with the board.
 
+If the connection is succesful the Serial Monitor shall prompt the HandyCommandLine, which might look like this:
+
+![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/TestGIF/HandyCommandLine.gif?raw=true)
 
 # Commands
 
