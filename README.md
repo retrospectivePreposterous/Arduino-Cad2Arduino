@@ -154,3 +154,9 @@ Before testing the AutoLISP samples in our Cad Software, please make sure the **
 - For graphical movement instructions to robotic arms, by selecting block assemblies.
 - For realtime communication with project team members.
 - For any graphic to light, sound or movement translation, at any place not necessary next to our computer.
+
+# License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+- This code is under the **[MIT license](http://opensource.org/licenses/mit-license.php)**.
+- Copyright 2020 © 
