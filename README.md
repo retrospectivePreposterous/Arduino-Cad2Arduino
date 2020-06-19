@@ -10,12 +10,12 @@ Have you ever imagined of drawing something and making your device to move in th
 - [Requirements](#requirements)
 - [Setup](#setup)
 - [Wiring Diagram](#wiring-diagram)
-- [Arduino IDE & Serial Monitor](#arduino-ide-&-serial-monitor)
+- [Arduino IDE & Serial Monitor](#arduino-ide--serial-monitor)
 - [Commands](#commands)
-- [Powershell HandyCommandLine setup](#powershell)
-- [How it works](#how)
-- [Testing in CAD - AutoLISP samples](#autolisp)
-- [Potential uses](#uses)
+- [Powershell HandyCommandLine setup](#powershell-handycommandline-setup)
+- [How it works](#how-it-works)
+- [Testing in CAD - AutoLISP samples](#testing-in-cad---autolisp-samples)
+- [Potential uses](#potential-uses)
 - [License](#license)
 
 
