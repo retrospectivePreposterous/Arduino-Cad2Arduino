@@ -158,7 +158,7 @@ Before testing the AutoLISP samples in our Cad Software, please make sure the **
 # License
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-- This code is under the **[MIT license](http://opensource.org/licenses/mit-license.php)**. 
+- This code is under the **[MIT license](http://opensource.org/licenses/mit-license.php)**. - Check the file [LICENSE](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/LICENSE) for details.
 - Copyright 2020 © 
 
 # Contact
