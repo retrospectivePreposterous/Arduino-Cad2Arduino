@@ -92,13 +92,13 @@ The **`Cad2Arduino`** library contains the following commands:
 * **12on** - Turn on Pin 12.
 * **12off** - Turn off Pin 12.
 
-*Besides these Cad graphics, other Matrix display were added: (skull/alien/tv/heart/wrong/right/creep/house/smile/neutral/sad).
+> *Besides these Cad graphics, other Matrix display were added: (skull/alien/tv/heart/wrong/right/creep/house/smile/neutral/sad).
 
 # Powershell HandyCommandLine setup
 
-This small piece of script was designed to test the connection without Arduino IDE. Powershell can be instructed through CMD and Batch script making it suitable to be run "behind the curtain". Also, Powershell has serial port communication libraries and it is a Windows native program (which is perfect to run **`Cad2Arduino`** in computers with no need of installing Arduino IDE).
+`PS-HandyCommandLine-ed01.ps1` is independent of **`Cad2Arduino`** global workflow; however, it is somehow embedded in the AutoLISP code. This Powershell script was designed to test the connection without Arduino IDE. Powershell can be instructed through CMD and Batch script making it suitable to be run "behind the curtain". Also, Powershell has serial port communication libraries and it is a Windows native program (which is perfect to run **`Cad2Arduino`** in computers with no need of installing Arduino IDE).
 
-Before testing `PS-HandyCommandLine-ed01.ps1` open the file in Powershell ISE (right click - edit) and modify the second line PortName (subtitute "COM7" with your current port name). Also make sure the BaudRate is set to "9600".
+Before testing `PS-HandyCommandLine-ed01.ps1` open the file in Powershell ISE (right click - edit) and modify the second line **PortName** (subtitute "COM7" with your current port name). Also make sure the **BaudRate** is set to "9600".
 
 ```powershell
 $port = New-Object System.IO.Ports.SerialPort
@@ -118,32 +118,32 @@ Before making our first Cad tests we shall understand how the core works:
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/Graphic/Cad2Arduino-HowItWorks.png?raw=true)
 
 The setup of the core goes in the opposite direction of its use, but once the setup is ready we only have to worry about the LISP branch.
-With some AutoLISP knowledge we can program our own routines for our **`Cad2Arduino`**. AutoLISP will be able to recognise many drawing or object properties like rotation, length or name thanks to ActiveX VLA and VLAX enablers. Then AutoLISP calls Powershell through external shell and it sends the information to the board.
+With some **AutoLISP** knowledge we can program our own routines for our **`Cad2Arduino`**. AutoLISP will be able to recognise many drawing or object properties like rotation, length or name thanks to **ActiveX** VLA and VLAX enablers. Then AutoLISP calls Powershell through external shell and it sends the information to the board.
 
 > *Putting it simple: **AutoLISP** is the reader, **PowerShell** the messager, **Arduino** the performer.*
 
 
 # Testing in CAD - AutoLISP samples
 
-Before testing the AutoLISP samples in our Cad Software, please make sure the PortName and BaudRate in the LISP are set up according your current ones:
+Before testing the AutoLISP samples in our Cad Software, please make sure the **PortName** and **BaudRate** in the LISP are set up according your current ones:
 
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/Graphic/AutoLISP-setup.png?raw=true)
 
 **`EntityToMatrix_ETM.lsp`**
 - The Led Matrix shows the Cad Object Entity as a common symbol.
-- Once loaded in Cad run "ETM" command.
+- Once loaded in Cad run **"ETM"** command.
 
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/TestGIF/LedMatrix.gif?raw=true)
 
 **`PropertyToOled_PTO.lsp`**
 - Property data of selected object is shown in the Oled Display.
-- Once loaded in Cad run "PTO" command.
+- Once loaded in Cad run **"PTO"** command.
 
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/TestGIF/Oled.gif?raw=true)
 
 **`BlockAngleToServo_ATS.lsp`:**
 - Block orientation property is assimilated by the servo.
-- Once loaded in Cad run "ATS" command.
+- Once loaded in Cad run **"ATS"** command.
 
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/TestGIF/Servo.gif?raw=true)
 
