@@ -164,12 +164,10 @@ Before testing the AutoLISP samples in our Cad Software, please make sure the **
 # Contact and Authors
 
 - This project was developed by:
-
   - **Alejandro Burgueño** - retrospectivePreposterous
 
 - Contact details:
-
-email: alejandro_burgueno_diaz@hotmail.com - retrospectivepreposterous@gmail.com
+  - email: alejandro_burgueno_diaz@hotmail.com - retrospectivepreposterous@gmail.com
 
 - Websites and Social Media:
   - [burguenodiaz.wordpress.com](https://burguenodiaz.wordpress.com/)
