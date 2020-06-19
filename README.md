@@ -17,7 +17,7 @@ Have you ever imagined of drawing something and making your device to move in th
 - [Testing in CAD - AutoLISP samples](#testing-in-cad---autolisp-samples)
 - [Potential uses](#potential-uses)
 - [License](#license)
-
+- [Contact](#contact)
 
 # Requirements
 ### Software
@@ -158,5 +158,11 @@ Before testing the AutoLISP samples in our Cad Software, please make sure the **
 # License
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-- This code is under the **[MIT license](http://opensource.org/licenses/mit-license.php)**.
+- This code is under the **[MIT license](http://opensource.org/licenses/mit-license.php)**. 
 - Copyright 2020 © 
+
+# Contact
+
+- For BIM purposes, like maintenance or control of IoT systems physically located on site in 6D projects.
+- For graphical paths or route instructions to robotic cars, by just entering a polyline drawing.
+- For graphical movem
