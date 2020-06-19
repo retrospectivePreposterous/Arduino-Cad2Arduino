@@ -23,9 +23,9 @@ Have you ever imagined of drawing something and making your device to move in th
 ### Software
 
 - **Arduino IDE**. Download for free at https://www.arduino.cc/
-- Windows OS (Tested on Windows 8 and higher versions).
-- Powershell ISE.
-- Cad software compatible with AutoLISP scripting. To choose in the market:
+- **Windows OS** (Tested on Windows 8 and higher versions).
+- **Powershell ISE**.
+- **Cad software** compatible with **AutoLISP** scripting. To choose in the market:
   - Autocad or any of its verticals (Tested on Autocad 2019 and Civil 3D 2019).
   - BricsCad.
   - BabaCad.
@@ -33,7 +33,7 @@ Have you ever imagined of drawing something and making your device to move in th
 
 ### Hardware
 
-Cad2Arduino is an extensible core designed to allow more devices than the suggested here. However, the default version is assemblied with the following hardware:
+**`Cad2Arduino`** is an extensible core designed to allow more devices than the suggested here. However, the default version is assemblied with the following hardware:
 - Arduino Mega 2560. Arduino Nano or Uno are suitable.
 - 0.96 Inch Oled display.
 - 8x8 Led Matrix Module MAX7219.
@@ -55,7 +55,7 @@ Cad2Arduino is an extensible core designed to allow more devices than the sugges
   - Pitches. By Brett Hagman.
   - Servo. By Michael Margolis.
   - Ledcontrol. By Eberhard Fahle.
-3. Run Cad2Arduino in Arduino IDE and upload it into your board.
+3. Run **`Cad2Arduino`** in Arduino IDE and upload it into your board.
 4. From now on you will be able to test it into Arduino Serial Monitor or Powershell `PS-HandyCommandLine-ed01.ps1`*.
 5. Run your Cad software and upload the AutoLISP* tools. 
 6. Call AutoLISP functions by your Cad command line.
@@ -75,7 +75,7 @@ If the connection is succesful the Serial Monitor shall prompt the HandyCommandL
 
 # Commands
 
-The Cad2Arduino library contains the following commands:
+The **`Cad2Arduino`** library contains the following commands:
 
 * **text** - Specify strings on newlines at the OLED display. Enter empty string to exit.
 * **point** - Specify point coordinates at the OLED display. Separate values by comma. Enter empty value to exit.
@@ -96,7 +96,7 @@ The Cad2Arduino library contains the following commands:
 
 # Powershell HandyCommandLine setup
 
-This small piece of script was designed to test the connection without Arduino IDE. Powershell can be instructed through CMD and Batch script making it suitable to be run "behind the curtain". Also, Powershell has serial port communication libraries and it is a Windows native program (which is perfect to run Cad2Arduino in computers with no need of installing Arduino IDE).
+This small piece of script was designed to test the connection without Arduino IDE. Powershell can be instructed through CMD and Batch script making it suitable to be run "behind the curtain". Also, Powershell has serial port communication libraries and it is a Windows native program (which is perfect to run **`Cad2Arduino`** in computers with no need of installing Arduino IDE).
 
 Before testing `PS-HandyCommandLine-ed01.ps1` open the file in Powershell ISE (right click - edit) and modify the second line PortName (subtitute "COM7" with your current port name). Also make sure the BaudRate is set to "9600".
 
@@ -118,7 +118,7 @@ Before making our first Cad tests we shall understand how the core works:
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/Graphic/Cad2Arduino-HowItWorks.png?raw=true)
 
 The setup of the core goes in the opposite direction of its use, but once the setup is ready we only have to worry about the LISP branch.
-With some AutoLISP knowledge we can program our own routines for our Cad2Arduino. AutoLISP will be able to recognise many drawing or object properties like rotation, length or name thanks to ActiveX VLA and VLAX enablers. Then AutoLISP calls Powershell through external shell and it sends the information to the board.
+With some AutoLISP knowledge we can program our own routines for our **`Cad2Arduino`**. AutoLISP will be able to recognise many drawing or object properties like rotation, length or name thanks to ActiveX VLA and VLAX enablers. Then AutoLISP calls Powershell through external shell and it sends the information to the board.
 
 > *Putting it simple: **AutoLISP** is the reader, **PowerShell** the messager, **Arduino** the performer.*
 
