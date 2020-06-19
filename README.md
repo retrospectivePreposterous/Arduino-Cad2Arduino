@@ -55,7 +55,7 @@ Have you ever imagined of drawing something and making your device to move in th
   - Pitches. By Brett Hagman.
   - Servo. By Michael Margolis.
   - Ledcontrol. By Eberhard Fahle.
-3. Run **`Cad2Arduino`** in Arduino IDE and upload it into your board.
+3. Open **`Cad2Arduino`** in Arduino IDE and upload it into your board.
 4. From now on you will be able to test it into Arduino Serial Monitor or Powershell `PS-HandyCommandLine-ed01.ps1`*.
 5. Run your Cad software and upload the AutoLISP* tools. 
 6. Call AutoLISP functions by your Cad command line.
@@ -67,9 +67,9 @@ Have you ever imagined of drawing something and making your device to move in th
 
 # Arduino IDE & Serial Monitor
 
-Once the wiring is done and the program uploaded to the board, the Serial Monitor can be started to test the core and try some commands with the board. Do not forget to set it up at 9600 Baud Rate.
+Once the wiring is done and the program uploaded to the board, the **Serial Monitor** can be started to test the core and try some **commands** with the board. Do not forget to set it up at **9600 Baud Rate**.
 
-If the connection is succesful the Serial Monitor shall prompt the HandyCommandLine, a short of REPL, which might look like this:
+If the connection is succesful the Serial Monitor shall prompt the **HandyCommandLine**, a short of REPL, which might look like this:
 
 ![alt text](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/TestGIF/HandyCommandLine.gif?raw=true)
 
