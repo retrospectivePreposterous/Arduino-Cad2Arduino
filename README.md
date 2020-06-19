@@ -20,7 +20,7 @@ Have you ever imagined of drawing something and making your device to move in th
 
 
 # Requirements
-## Software
+### Software
 
 - **Arduino IDE**. Download for free at https://www.arduino.cc/
 - Windows OS (Tested on Windows 8 and higher versions).
@@ -31,7 +31,7 @@ Have you ever imagined of drawing something and making your device to move in th
   - BabaCad.
   - Archicad.
 
-## Hardware
+### Hardware
 
 Cad2Arduino is an extensible core designed to allow more devices than the suggested here. However, the default version is assemblied with the following hardware:
 - Arduino Mega 2560. Arduino Nano or Uno are suitable.
