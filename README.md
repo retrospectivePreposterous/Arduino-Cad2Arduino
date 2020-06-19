@@ -17,7 +17,7 @@ Have you ever imagined of drawing something and making your device to move in th
 - [Testing in CAD - AutoLISP samples](#testing-in-cad---autolisp-samples)
 - [Potential uses](#potential-uses)
 - [License](#license)
-- [Contact](#contact)
+- [Contact and Authors](#contact-and-authors)
 
 # Requirements
 ### Software
@@ -158,11 +158,17 @@ Before testing the AutoLISP samples in our Cad Software, please make sure the **
 # License
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-- This code is under the **[MIT license](http://opensource.org/licenses/mit-license.php)**. - Check the file [LICENSE](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/LICENSE) for details.
+- This code is under the **MIT license**. - Check the file [LICENSE](https://github.com/retrospectivePreposterous/Arduino-Cad2Arduino/blob/master/LICENSE) for details.
 - Copyright 2020 © 
 
-# Contact
+# Contact and Authors
 
-- For BIM purposes, like maintenance or control of IoT systems physically located on site in 6D projects.
-- For graphical paths or route instructions to robotic cars, by just entering a polyline drawing.
-- For graphical movem
+This project was developed by:
+- **Alejandro Burgueño** - retrospectivePreposterous
+Contact details:
+email: alejandro_burgueno_diaz@hotmail.com - retrospectivepreposterous@gmail.com
+Websites and Social Media:
+[website](https://burguenodiaz.wordpress.com/)
+[Linkedin](https://www.linkedin.com/in/alejandroburgueno/)
+[YoutubeChannel](https://www.youtube.com/channel/UCzSitYhzQek9cjOXmgJZfaQ/)
+
